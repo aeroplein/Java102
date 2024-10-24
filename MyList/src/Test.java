@@ -38,6 +38,14 @@ public class Test {
         System.out.println();
         //list.clear();
         System.out.println(list.toString());
+        list.add(100);
+        list.add(150);
+        list.add(200);
+        list.add(250);
+        System.out.println(list.isFull());
+        System.out.println(list.toString());
+
+
 
 
     }
