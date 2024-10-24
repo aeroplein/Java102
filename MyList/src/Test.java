@@ -26,13 +26,16 @@ public class Test {
         System.out.println(list.toString());
         list.add(80);
         System.out.println(list.toString());
-        System.out.println(list.lastIndexOf(80));
+        System.out.println("In"+list.lastIndexOf(80));
         System.out.println(list.indexOf(80));
         System.out.println(list.isEmpty());
         System.out.println(Arrays.toString(list.toArray()));
         System.out.println(list.sublist(2, 6));
         System.out.println(list.contains(50));
         System.out.println(list.contains(100));
+        System.out.println(list.set(2, 40));
+        System.out.println(list.remove(2));
+        System.out.println();
         //list.clear();
         System.out.println(list.toString());
 
