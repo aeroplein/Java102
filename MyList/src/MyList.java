@@ -150,7 +150,7 @@ public class MyList<T> {
     MyList<T> sublist(int start, int finish){
         T[] newArray = (T[]) new Object[capacity];
         MyList<T> list = new MyList<>(capacity);
-        System.arraycopy(myListArray, start, newArray, 0, finish-start-1);
+        System.arraycopy(myListArray, start, newArray, 0, finish-start);
         for (int i = 0; i< newArray.length; i++){
             list.add(newArray[i]);
         }
